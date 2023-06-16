@@ -16,3 +16,4 @@ With Debating Guides, Websites, Recorded debates, and much more.
 - [ ] Add descriptions to home page
 - [ ] Add settings
 - [ ] Add Suggestion form
+- [ ] Add author

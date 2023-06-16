@@ -22,7 +22,7 @@
     }
 </script>
 
-<div class="card card-compact mx-auto my-8 w-11/12 bg-base-100 shadow-xl">
+<div class="card md:card-side card-compact mx-auto my-8 w-11/12 bg-base-100 shadow-xl">
     <figure><a href={resource.url.href} target="_blank">
         <img src={image} alt="">
     </a></figure>
