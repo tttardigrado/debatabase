@@ -2,9 +2,9 @@
     import TopInput              from "../components/TopInput.svelte";
     import Card                  from "../components/Card.svelte";
     
-    import      { getSaved } from "../db/getResources";
-    import { onMount } from "svelte";
-    import type { Resource } from "../interfaces/resource";
+    import      { getSaved }     from "../db/getResources";
+    import      { onMount }      from "svelte";
+    import type { Resource }     from "../interfaces/resource";
     
     let title: string = "";
 

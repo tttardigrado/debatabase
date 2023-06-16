@@ -17,6 +17,7 @@ export enum Kinds {
 export interface Resource {
     id: int,
     title: string,
+    author: string,
     url: URL,
     lang: Langs,
     kind: Kinds,

@@ -2,8 +2,10 @@ import { db } from "./resources";
 import { Resource } from "../interfaces/resource"
 import { DataFilter, langArray, kindArray } from '../interfaces/filter';
 
-// check if a title in a resource matches a string (is includes case incencitive)
-const doesTitleMatch = (str: string) => (r: Resource) => r.title.toLowerCase().includes(str.toLowerCase())
+// check if a title or author name in a resource matches a string (is includes case incencitive)
+const doesTitleMatch = (str: string) => (r: Resource) =>
+  r.title.toLowerCase().includes(str.toLowerCase()) ||
+  r.author.toLowerCase().includes(str.toLowerCase())
 
 export const getResources = (df: DataFilter) =>
     db.filter((r) => langArray(df.lang).indexOf(r.lang) !== -1) // language filter

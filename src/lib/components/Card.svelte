@@ -28,8 +28,10 @@
     </a></figure>
 
     <a href={resource.url.href} target="_blank" class="card-body">
-      <h2 class="card-title">{resource.title}</h2>
-      
+        <h2 class="card-title">{resource.title}</h2>
+        {#if resource.author}
+            <span>{resource.author}</span>
+        {/if}
     <!--
       <div class="flex-wrap justify-start items-center">
         {#each [resource.kw1, resource.kw2, resource.kw3] as kw}
@@ -40,7 +42,7 @@
     </a>
     
     <div class="flex justify-between items-center w-11/12 mx-auto mb-3 card-actions">
-        <span class="opacity-50">{resource.kind}</span>
+        <span class="opacity-50">{resource.kind}</span>    
         <span class="text-xl">
             <i class="bi transition cursor-pointer hover:text-accent mr-3 bi-link-45deg"
                 on:click={copy} on:keydown={copy}
