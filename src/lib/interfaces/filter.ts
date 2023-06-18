@@ -32,7 +32,7 @@ export interface KindsFilter {
     manuals: boolean,
 }
 
-export const kindArray = (kind: Kinds) => {
+export const kindArray = (kind: KindsFilter) => {
     let res: Kinds[] = [];
 
     if (kind.recorded)  { res.push(Kinds.Recorded);  }

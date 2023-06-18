@@ -21,6 +21,7 @@
             written: true,
             casefiles: true,
             articles: true,
+            websites: true,
             videos: true,
             debates: true,
             manuals: true
@@ -30,15 +31,12 @@
 
 
 
-<main>
-  {#if active == Pages.Search}
+{#if active == Pages.Search}
     <Search bind:dataFilter={dataFilter}/>
-  {:else if active == Pages.Saved}
+{:else if active == Pages.Saved}
     <Saved/>
-  {:else if active == Pages.Home}
+{:else if active == Pages.Home}
     <Home/>
-  {/if}
-  
-</main>
+{/if}
 
 <Nav bind:active={active}/>

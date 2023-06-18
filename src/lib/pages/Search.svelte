@@ -20,14 +20,15 @@
 
 <TopInput placeholder="Pesquisar..."
           bind:value={dataFilter.title}
-          onClick={search} />
+          onClick={search}
+/>
 
-<div class="mb-40">
+<main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-40 w-11/12 mx-auto">
     {#each resources as r}
         <Card resource={r}/>
     {/each}
-</div>
+</main>
 
 <Modal icon="funnel-fill" id="filter-modal" onClose={search}>
-  <Filter bind:dataFilter={dataFilter}/>
+    <Filter bind:dataFilter={dataFilter}/>
 </Modal>

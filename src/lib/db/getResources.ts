@@ -12,5 +12,6 @@ export const getResources = (df: DataFilter) =>
       .filter((r) => kindArray(df.kind).indexOf(r.kind) !== -1) // kind filter
       .filter(doesTitleMatch(df.title)) // title filter
 
-export const getSaved = (str: string) =>
-    db.filter(doesTitleMatch(str))
+export const getSaved = (saved: number[] ,str: string) =>
+    saved.map((i) => db[i])
+         .filter(doesTitleMatch(str))
