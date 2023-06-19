@@ -32,16 +32,7 @@
 
     <a href={resource.url.href} target="_blank" class="card-body">
         <h2 class="card-title">{resource.title}</h2>
-        {#if resource.author}
-            <span>{resource.author}</span>
-        {/if}
-    <!--
-      <div class="flex-wrap justify-start items-center">
-        {#each [resource.kw1, resource.kw2, resource.kw3] as kw}
-            <Badge label={kw}/>
-        {/each}
-      </div>
-    -->
+        {#if resource.author}{resource.author}{/if}
     </a>
     
     <div class="flex justify-between items-center w-11/12 mx-auto mb-3 card-actions">
