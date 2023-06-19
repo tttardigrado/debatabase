@@ -12,7 +12,7 @@ With Debating Guides, Websites, Recorded debates, and much more.
 ## TO-DO:
 - [X] Fix cards on desktop
 - [ ] Add save functionality
-- [ ] Add a pop-up to notify link copy
+- [X] Add a pop-up to notify link copy
 - [ ] Add descriptions to the home page
 - [ ] Add settings
 - [X] Add Suggestion form
