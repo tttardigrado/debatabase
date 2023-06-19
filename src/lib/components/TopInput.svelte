@@ -9,7 +9,7 @@
     }
 </script>
 
-<div class="form-control block w-11/12 mx-auto my-5">
+<div class="form-control block top mx-auto my-5">
     <div class="input-group">
         <input type="text" 
             placeholder={placeholder}
@@ -22,3 +22,10 @@
         </button>
     </div>
 </div>
+
+<style>
+    .top {
+        width: 90%;
+        max-width: 87.5rem;
+    }
+</style>
