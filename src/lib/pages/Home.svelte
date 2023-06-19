@@ -7,14 +7,22 @@
       <div class="hero min-h-screen">
             <div class="hero-overlay bg-opacity-0"></div>
             <div class="hero-content text-center text-neutral-content">
-              <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold">Debatabase</h1>
-                <p class="mb-5">Os recursos de debate competitivo, que não sabias que precisasavas, num só lugar.</p>
+                  <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Debatabase</h1>
+                        <p class="mb-5">Os recursos de debate competitivo, que não sabias que precisasavas, num só lugar.</p>
+
+                        <a class="btn btn-accent" target="_blank" 
+                           href="https://forms.gle/BVY4rivH3u2BBCyL9"
+                        >
+                           Sugestões
+                        </a>
+                  </div>
             </div>
-            </div>
+
         </div>
         
-        <div class="text-center text-neutral-content w-11/12 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
+                    text-center text-neutral-content w-11/12 mx-auto mb-40">
             <Info icon="translate"
                   title="Português e Inglês"
                   desc=""/>
