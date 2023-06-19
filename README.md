@@ -14,7 +14,7 @@ With Debating Guides, Websites, Recorded debates, and much more.
 - [ ] Add save functionality
 - [X] Add a pop-up to notify link copy
 - [ ] Add descriptions to the home page
-- [ ] Add settings
+- [X] Add settings (Themes)
 - [X] Add Suggestion form
 - [ ] Add default image
 - [X] Add author
