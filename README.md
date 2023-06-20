@@ -12,7 +12,7 @@ With Debating Guides, Websites, Recorded debates, and much more.
 ## TO-DO:
 - [X] Fix cards on desktop
 - [X] Add save functionality
-- [ ] Improve Save (post instantly go away when unsaved)
+- [ ] Improve Save (post instantly goes away when unsaved)
 - [X] Add a pop-up to notify link copy
 - [ ] Add descriptions to the home page
 - [X] Add settings (Themes)

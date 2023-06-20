@@ -5,7 +5,7 @@
 
 <ThemeToggle/>
 
-<main>
+<main class="mb-20">
       <div class="hero min-h-screen">
             <div class="hero-overlay bg-opacity-0"></div>
             <div class="hero-content text-center">
@@ -24,7 +24,7 @@
       </div>
         
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
-                    text-center w-11/12 mx-auto mb-40"
+                    text-center w-11/12 mx-auto"
       >
             <Info icon="translate"
                   title="Português e Inglês"
@@ -44,6 +44,7 @@
             <Info icon="film"
                   title="Debates Gravados"
                   desc=""/>
+      
+            <div>© 2023 Gonçalo Teixeira.</div>
       </div>
-
 </main>
