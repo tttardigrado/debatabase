@@ -4,7 +4,7 @@
     
     import type { Resource } from "../interfaces/resource";
     import      { getSaved } from "../db/getResources";
-    import      { onMount }  from "svelte";
+    import      { onMount  } from "svelte";
     
     let title: string = "";
 
