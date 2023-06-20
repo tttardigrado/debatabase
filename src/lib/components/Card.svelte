@@ -3,8 +3,9 @@
     import type { Resource } from "../interfaces/resource"
 
     export let resource: Resource
-
-    let isSaved = false
+    export let saveFunc: () => void
+    export let unsaveFunc: () => void
+    export let isSaved: boolean = false
 
     // thumbnail for youtube content
     $: image = (resource.url.hostname === "www.youtube.com")
@@ -21,6 +22,7 @@
     }
 
     const saveOrUnsave = () => {
+        isSaved ? unsaveFunc() : saveFunc();
         isSaved = !isSaved
     }
 </script>
