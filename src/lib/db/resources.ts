@@ -225,5 +225,29 @@ export let db: Resource[] = [
         url:new URL("https://www.youtube.com/watch?v=X3GUnYqWAP4"),
         lang: Langs.PT,
         kind: Kinds.Recorded,
+    },
+    {
+        id: 28,
+        title: "Ciclo de Formações CNADU - Tesouraria",
+        author: "Gonçalo Lúcio",
+        url:new URL("https://www.youtube.com/watch?v=QS2GNfhDYAI"),
+        lang: Langs.PT,
+        kind: Kinds.Recorded,
+    },
+    {
+        id: 29,
+        title: "Ciclo de Formações CNADU - Gestão Associativa",
+        author: "Ana Lopes",
+        url:new URL("https://www.youtube.com/watch?v=PlmgilYsElI"),
+        lang: Langs.PT,
+        kind: Kinds.Recorded,
+    },
+    {
+        id: 30,
+        title: "Ciclo de Formações CNADU - Gestão de Redes Sociais",
+        author: "Maria João Alves",
+        url:new URL("https://www.youtube.com/watch?v=PlmgilYsElI"),
+        lang: Langs.PT,
+        kind: Kinds.Recorded,
     }
 ]
