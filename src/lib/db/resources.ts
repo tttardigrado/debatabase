@@ -246,7 +246,7 @@ export let db: Resource[] = [
         id: 30,
         title: "Ciclo de Formações CNADU - Gestão de Redes Sociais",
         author: "Maria João Alves",
-        url:new URL("https://www.youtube.com/watch?v=PlmgilYsElI"),
+        url:new URL("https://www.youtube.com/watch?v=KczwBPIUe0w"),
         lang: Langs.PT,
         kind: Kinds.Recorded,
     }
